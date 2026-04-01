@@ -21,7 +21,7 @@ export default function HomeScreen() {
                     contentFit="cover"
                 />
                 <View style={styles.headerOverlay}>
-                    <Text style={styles.headerTitle}>PharmaChain</Text>
+                    <Text style={styles.headerTitle}>ChainTrace</Text>
                     <Text style={styles.headerSubtitle}>
                         Verify the authenticity and journey of pharmaceutical products
                     </Text>
@@ -76,9 +76,9 @@ export default function HomeScreen() {
             </View>
 
             <View style={styles.infoCard}>
-                <Text style={styles.infoTitle}>Why Use PharmaChain?</Text>
+                <Text style={styles.infoTitle}>Why Use ChainTrace?</Text>
                 <Text style={styles.infoText}>
-                    PharmaChain leverages blockchain technology to provide immutable records of pharmaceutical products throughout the supply chain. This ensures authenticity, prevents counterfeiting, and guarantees proper handling of sensitive medications.
+                    ChainTrace leverages blockchain technology to provide immutable records of pharmaceutical products throughout the supply chain. This ensures authenticity, prevents counterfeiting, and guarantees proper handling of sensitive medications.
                 </Text>
             </View>
         </ScrollView>

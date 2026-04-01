@@ -10,7 +10,7 @@ export default function AboutScreen() {
                 <View style={styles.iconContainer}>
                     <Database size={32} color={Colors.primary} />
                 </View>
-                <Text style={styles.title}>About PharmaChain</Text>
+                <Text style={styles.title}>About ChainTrace</Text>
                 <Text style={styles.subtitle}>
                     Blockchain-powered supply chain verification for pharmaceutical products
                 </Text>
@@ -19,7 +19,7 @@ export default function AboutScreen() {
             <View style={styles.card}>
                 <Text style={styles.cardTitle}>Our Mission</Text>
                 <Text style={styles.cardText}>
-                    PharmaChain is dedicated to ensuring the safety and authenticity of pharmaceutical products by providing complete transparency throughout the supply chain. Our blockchain-based solution creates an immutable record of each product's journey from manufacturer to pharmacy.
+                    ChainTrace is dedicated to ensuring the safety and authenticity of pharmaceutical products by providing complete transparency throughout the supply chain. Our blockchain-based solution creates an immutable record of each product's journey from manufacturer to pharmacy.
                 </Text>
             </View>
 
@@ -64,7 +64,7 @@ export default function AboutScreen() {
             </View>
 
             <View style={styles.card}>
-                <Text style={styles.cardTitle}>How to Use PharmaChain</Text>
+                <Text style={styles.cardTitle}>How to Use ChainTrace</Text>
                 <Text style={styles.cardText}>
                     1. Find the product code on your medication packaging{'\n'}
                     2. Enter the code in the search field{'\n'}
@@ -82,12 +82,12 @@ export default function AboutScreen() {
             <View style={styles.infoCard}>
                 <Info size={20} color={Colors.textSecondary} style={styles.infoIcon} />
                 <Text style={styles.infoText}>
-                    This is a demonstration application. In a production environment, PharmaChain would connect to actual blockchain networks to verify pharmaceutical supply chains.
+                    This is a demonstration application. In a production environment, ChainTrace would connect to actual blockchain networks to verify pharmaceutical supply chains.
                 </Text>
             </View>
 
             <Text style={styles.footerText}>
-                © 2023 PharmaChain • Version 1.0.0
+                © 2023 ChainTrace • Version 1.0.0
             </Text>
         </ScrollView>
     );
